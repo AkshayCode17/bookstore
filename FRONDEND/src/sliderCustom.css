@@ -1,0 +1,36 @@
+/* Change the color of the arrows */
+.slick-prev:before, 
+.slick-next:before {
+  color: #D53F8C; /* Your desired arrow color */
+}
+
+/* Adjust the size of the arrows */
+.slick-prev:before, 
+.slick-next:before {
+  font-size: 24px; /* Increase arrow size */
+}
+
+/* Position the arrows closer to the edge */
+.slick-prev {
+  left: -40px; /* Adjust left arrow position */
+}
+
+.slick-next {
+  right: -40px; /* Adjust right arrow position */
+}
+
+#carousel{
+  width: 87%;
+  margin: auto;
+  margin-top: 20px;
+  height:300px
+
+}
+
+
+#carousel img{
+ 
+  width:90%;
+  height:300px
+}
+
